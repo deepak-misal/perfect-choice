@@ -1,0 +1,35 @@
+body{
+	background: #052836;
+	font-family:"Nunito", sans-serif;
+}
+#mainNavbar .navbar-brand{
+	font-color:white;
+}
+#mainNavbar .navbar-link:hover{
+	color: white;
+}
+.container-fluid{
+	color:white;
+}
+.container-fluid .row #header{
+	font-family: 'Acme', sans-serif;
+	color:white;
+	font-size: 70px;
+}
+#header span{
+	color:red;
+}
+p{
+	margin-top: 10px;
+	color: #30E4BD;
+	line-height: 2;
+}
+h2{
+	color: white;
+}
+.fab{
+	color: black;
+}
+.navbar.scrolled{
+	background:red;
+}

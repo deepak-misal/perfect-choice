@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Perfect choice</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="choice.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+	<link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
+</head>
+<body>
+	<nav id="mainNavbar" class="navbar navbar-expand-md navbar-dark fixed-top">
+		<a href="#" class="navbar-brand"><i class="fas fa-tshirt"></i> PERFECT-CHOICE</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbartext" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>	
+		</button>
+		<div class="navbar-collapse" id="navbartext">
+			<ul class="navbar-nav">
+				<li class="navbar-item">
+					<a class="nav-link" href="#">HOME</a>
+				</li>
+				<li class="navbar-item">
+					<a class="nav-link" href="#">ABOUT</a>
+				</li>
+				<li class="navbar-item">
+					<a class="nav-link" href="#">CONTACT</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<section class="container-fluid px-0">
+		<div class="row align-items-center">
+			<div class="col-lg-6">
+				<h2 id="header" class="text-center d-none d-lg-block">PERFECT<span>-</span>CHOICE</h2>				
+			</div>
+			<div class="col-lg-6">
+				<img class="img-fluid" src="pc1.jpg">
+			</div>
+		</div>	
+	</section>
+	<section class="container-fluid px-0">
+		<div class="row align-items-center">
+			<div class="col-lg-6 order-2 order-md-1">
+				<img class="img-fluid" src="pc4.jpg">
+			</div>
+			<div class="col-lg-6 text-center order-1 order-md-2">
+				<div class="row justify-content-center blurb">
+					<div class="col-10 col-lg-8 mb-5 mb-md-0">
+					<h2>PERFECT-CHOICE</h2>	
+					<i class="fab fa-pied-piper-hat fa-3x"></i>
+					<p>"Fashion you can buy, but style you possess. The key to style is learning who you are, which takes years. There's no how-to road map to style. It's about self expression and, above all, attitude."</p>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="row align-items-center">
+			<div class="col-lg-6 text-center">
+				<div class="row justify-content-center blurb">
+					<div class="col-10 col-lg-8 mb-5 mb-md-0">
+					<h2>PERFECT-CHOICE</h2>	
+					<i class="fab fa-pied-piper-hat fa-3x"></i>
+					<p>Clothes are not a frivolous subject, and the conversation around them should not be belittled. How we dress affects what we feel, what we do, and who we are.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<img class="img-fluid" src="pc2.jpg">
+			</div>
+		</div>
+		
+	</section>
+	<section class="container-fluid px-0">
+		<div class="row align-items-center">
+			<div class="col-lg-6 order-2 order-md-1">
+				<img class="img-fluid" src="pc5.jpg">
+			</div>
+			<div class="col-lg-6 text-center order-1 order-md-2">
+				<div class="row justify-content-center">
+					<div class="col-10 col-lg-8 mb-5 mb-md-0">
+					<h2>PERFECT-CHOICE</h2>	
+					<i class="fab fa-pied-piper-hat fa-3x"></i>
+					<p>“The customer is the final filter. What survives the whole process is what people wear. I’m not interested in making clothes that end up in some dusty museum.”</p>
+			</div>
+		</div>
+	</section>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script>
+	$(function() {
+		$(document).sroll(function() {
+			var $nav=$("#mainNavbar");
+			$nav.toggleClass("scrolled" , $(this).scrollTop()> $nav.height());
+		});
+	});
+</script>
+</body>
+</html>
