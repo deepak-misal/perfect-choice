@@ -33,3 +33,9 @@ h2{
 .navbar.scrolled{
 	background:red;
 }
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  #mainNavbar,.container-fluid,.row {
+    width: 100%;
+  }
+}
